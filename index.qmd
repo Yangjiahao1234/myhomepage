@@ -1,31 +1,74 @@
-# 杨家豪
-
-## 个人简介
-
-大家好，我是杨家豪。
-
-这是我的个人主页网站。
-
----
-
-## 教育背景
-
-本科：河南农业大学
-
-专业：农业资源与环境
-
----
-
-## 研究兴趣
-
-- 微生物生态
-- 土壤生态
-- 数据分析
-
----
-
-## 联系方式
-
-GitHub：Yangjiahao1234
-
-https://github.com/Yangjiahao1234
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>杨家豪的个人主页</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .contact {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>杨家豪</h1>
+    
+    <h2>个人简介</h2>
+    <p>大家好，我是杨家豪。这是我的个人主页网站。</p>
+    <p><strong>本科：</strong>河南农业大学</p>
+    <p><strong>专业：</strong>农业资源与环境</p>
+    
+    <h2>教育背景</h2>
+    <p><strong>本科：</strong>河南农业大学</p>
+    <p><strong>专业：</strong>农业资源与环境</p>
+    
+    <h2>研究兴趣</h2>
+    <ul>
+        <li>微生物生态</li>
+        <li>土壤生态</li>
+        <li>数据分析</li>
+    </ul>
+    
+    <div class="contact">
+        <h2>联系方式</h2>
+        <p><strong>GitHub：</strong>
+            <a href="https://github.com/Yangjiahao1234" target="_blank">
+                https://github.com/Yangjiahao1234
+            </a>
+        </p>
+    </div>
+</body>
+</html>
