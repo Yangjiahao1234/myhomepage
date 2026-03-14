@@ -1,0 +1,9 @@
+project:
+  type: website
+
+website:
+  title: "杨家豪的个人主页"
+
+format:
+  html:
+    theme: cosmo
